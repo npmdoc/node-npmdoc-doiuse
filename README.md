@@ -1,9 +1,14 @@
-# api documentation for  [doiuse (v2.6.0)](https://github.com/anandthakker/doiuse)  [![npm package](https://img.shields.io/npm/v/npmdoc-doiuse.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-doiuse) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-doiuse.svg)](https://travis-ci.org/npmdoc/node-npmdoc-doiuse)
+# npmdoc-doiuse
+
+#### api documentation for  [doiuse (v2.6.0)](https://github.com/anandthakker/doiuse)  [![npm package](https://img.shields.io/npm/v/npmdoc-doiuse.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-doiuse) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-doiuse.svg)](https://travis-ci.org/npmdoc/node-npmdoc-doiuse)
+
 #### Lint CSS for browser support against caniuse database.
 
-[![NPM](https://nodei.co/npm/doiuse.png?downloads=true)](https://www.npmjs.com/package/doiuse)
+[![NPM](https://nodei.co/npm/doiuse.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/doiuse)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-doiuse/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-doiuse_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-doiuse/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-doiuse/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-doiuse/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-doiuse/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-doiuse/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-doiuse/build/screenCapture.npmPackageListing.svg)
 
@@ -64,13 +69,11 @@
     "main": "lib/doiuse.js",
     "maintainers": [
         {
-            "name": "anandthakker",
-            "email": "vestibule@anandthakker.net"
+            "name": "anandthakker"
         }
     ],
     "name": "doiuse",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/anandthakker/doiuse.git"
@@ -88,41 +91,6 @@
     },
     "version": "2.6.0"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module doiuse](#apidoc.module.doiuse)
-1.  object <span class="apidocSignatureSpan">doiuse.</span>default
-1.  object <span class="apidocSignatureSpan">doiuse.</span>util
-
-#### [module doiuse.util](#apidoc.module.doiuse.util)
-1.  [function <span class="apidocSignatureSpan">doiuse.util.</span>formatBrowserName (browserKey, versions)](#apidoc.element.doiuse.util.formatBrowserName)
-
-
-
-# <a name="apidoc.module.doiuse"></a>[module doiuse](#apidoc.module.doiuse)
-
-
-
-# <a name="apidoc.module.doiuse.util"></a>[module doiuse.util](#apidoc.module.doiuse.util)
-
-#### <a name="apidoc.element.doiuse.util.formatBrowserName"></a>[function <span class="apidocSignatureSpan">doiuse.util.</span>formatBrowserName (browserKey, versions)](#apidoc.element.doiuse.util.formatBrowserName)
-- description and source-code
-```javascript
-function formatBrowserName(browserKey, versions) {
-  var browserName = (agents[browserKey] || {}).browser;
-  if (!versions) {
-    return browserName;
-  }
-  return browserName + ' (' + versions.join(',') + ')';
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
